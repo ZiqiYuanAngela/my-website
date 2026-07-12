@@ -18,19 +18,24 @@ const projects = [
 
 const thoughts = [
   {
-    title: "Why I’m building with AI first",
-    description: "A reflection on shipping faster while keeping the experience thoughtful.",
-    link: "https://www.linkedin.com/feed/",
+    title: "How Sports Can Relate to Startups",
+    description: "The 2026 World Cup has entered the knockout stage, and the competitions are getting fierce as 3 teams are knocked out each day. As I watched the matches, I strongly felt the world of sports is so similar to the world of startup in multiple ways.",
+    link: "https://www.linkedin.com/posts/ziqi-yuan_the-2026-world-cup-has-entered-the-knockout-share-7478523673771995136-koBe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB-z90wBSqn7AjvQyhq4nhOdhkwKFWMYnlI",
   },
   {
-    title: "Designing calm digital experiences",
-    description: "Notes on simplicity, clarity, and making tools feel approachable.",
-    link: "https://www.linkedin.com/feed/",
+    title: "Human-Centered AI",
+    description: "I am an active thinker and I love to think. When AI is going ahead and shares all it has in just few seconds, I sometimes felt interrupted and annoyed.",
+    link: "https://www.linkedin.com/posts/ziqi-yuan_humancenteredai-aifatigue-criticalthinking-share-7473184908266545152-iYWx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB-z90wBSqn7AjvQyhq4nhOdhkwKFWMYnlI",
   },
   {
-    title: "What I learned from side projects",
-    description: "A short post on how small experiments sharpen product instincts.",
-    link: "https://www.linkedin.com/feed/",
+    title: "Tokenomics and Its potential drawbacks",
+    description: "People tend to burn tokens as much as they have nowadays to increase their work efficiency or  because they are encouraged or pressured to hit the KPI.",
+    link: "https://www.linkedin.com/posts/ziqi-yuan_%F0%9D%90%93%F0%9D%90%A8%F0%9D%90%A4%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%AC-or-token-economics-share-7468044524338970624-l3_9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB-z90wBSqn7AjvQyhq4nhOdhkwKFWMYnlI",
+  },
+   {
+    title: "Back to SF",
+    description: "To my surprise, there was a temporary culture shock to me when I discovered that San Francisco was full of people coming from different parts of the world (Europe - UK/Sweden, Africa - Nigeria/Egypt etc), owning different mindsets and ways to express their identities.",
+    link: "https://www.linkedin.com/posts/ziqi-yuan_%F0%9D%90%88%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%9B%F0%9D%90%9E-%F0%9D%90%9B%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4-%F0%9D%90%A2%F0%9D%90%A7-ugcPost-7454457027247968257-8HwD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB-z90wBSqn7AjvQyhq4nhOdhkwKFWMYnlI",
   },
 ];
 
