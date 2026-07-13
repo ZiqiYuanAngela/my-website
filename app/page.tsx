@@ -47,32 +47,57 @@ export default function Home() {
           <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
             As a software engineer who is always fascinated by how fast AI and technology are evolving, I can't wait to experience their power and momentum by building!!
           </p>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="https://www.linkedin.com/in/ziqi-yuan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-2 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800"
+              aria-label="Visit LinkedIn profile"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
+                <path d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.5 9.5h2.88V18H5.5zM10.5 9.5h2.76v1.16h.04c.38-.72 1.32-1.48 2.72-1.48 2.91 0 3.45 1.92 3.45 4.41V18h-2.88v-7.34c0-1.75-.03-4-2.44-4-2.44 0-2.81 1.91-2.81 3.88V18H10.5z" />
+              </svg>
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/repos?q=owner%3A%40me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-2 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800"
+              aria-label="Visit GitHub profile"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
+                <path d="M12 .5A12 12 0 0 0 0 12.7a12.2 12.2 0 0 0 8.2 11.6c.6.1.8-.3.8-.6v-2.2c-3.3.7-4.1-1.4-4.1-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12.2 12.2 0 0 0 24 12.7 12 12 0 0 0 12 .5Z" />
+              </svg>
+              GitHub
+            </a>
+          </div>
         </section>
 
         <section className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-8 shadow-lg">
           <h2 className="text-2xl font-semibold text-white">🎨 playground</h2>
           <div className="mt-6 space-y-4">
             {projects.map((project) => (
-              <article
+              <a
                 key={project.name}
-                className="rounded-2xl border border-zinc-800 bg-zinc-900/80 p-4 transition hover:border-cyan-400/40"
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-2xl border border-zinc-800 bg-zinc-900/80 p-4 transition hover:border-cyan-400/40"
               >
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <div>
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-mono text-lg font-medium text-cyan-300 transition hover:text-cyan-200"
-                    >
+                    <h3 className="font-mono text-lg font-medium text-cyan-300 transition hover:text-cyan-200">
                       {project.name}
-                    </a>
+                    </h3>
                     <p className="mt-1 text-sm leading-6 text-zinc-400">
                       {project.description}
                     </p>
                   </div>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </section>
