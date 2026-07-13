@@ -1,18 +1,8 @@
 const projects = [
   {
-    name: "Project One",
-    description: "A small web app I built to practice modern React patterns.",
-    github: "https://github.com/yourname/project-one",
-  },
-  {
-    name: "Project Two",
-    description: "A dashboard that visualizes data with a clean and simple UI.",
-    github: "https://github.com/yourname/project-two",
-  },
-  {
-    name: "Project Three",
-    description: "A personal tool focused on productivity and daily planning.",
-    github: "https://github.com/yourname/project-three",
+    name: "API Documentation Agent",
+    description: "A full stack application that allows users to upload their API documentation and interact with it using a chat interface. The application utilizes FastAPI, OpenAI, and Next.js to provide a seamless experience for users.",
+    github: "https://github.com/ZiqiYuanAngela/api-doc-agent",
   },
 ];
 
@@ -52,15 +42,15 @@ export default function Home() {
           </div>
 
           <h1 className="font-mono text-4xl font-semibold tracking-tight sm:text-5xl">
-            &gt; Angela@dev:~$ whoami
+            &gt; Angela@dev:~$ 🧑‍💻 whoami
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-            I am always fascinated by how fast the AI and technology are evolving. I can't want to build to experience the power and momentum!!
+            As a software engineer who is always fascinated by how fast AI and technology are evolving, I can't wait to experience their power and momentum by building!!
           </p>
         </section>
 
         <section className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-8 shadow-lg">
-          <h2 className="text-2xl font-semibold text-white">Playground</h2>
+          <h2 className="text-2xl font-semibold text-white">🎨 playground</h2>
           <div className="mt-6 space-y-4">
             {projects.map((project) => (
               <article
@@ -69,21 +59,18 @@ export default function Home() {
               >
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <div>
-                    <h3 className="font-mono text-lg font-medium text-cyan-300">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-lg font-medium text-cyan-300 transition hover:text-cyan-200"
+                    >
                       {project.name}
-                    </h3>
+                    </a>
                     <p className="mt-1 text-sm leading-6 text-zinc-400">
                       {project.description}
                     </p>
                   </div>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-sm font-medium text-fuchsia-400 transition hover:text-fuchsia-300"
-                  >
-                    {project.name}
-                  </a>
                 </div>
               </article>
             ))}
@@ -91,7 +78,7 @@ export default function Home() {
         </section>
 
         <section className="rounded-3xl border border-zinc-800 bg-zinc-950/80 p-8 shadow-lg">
-          <h2 className="text-2xl font-semibold text-white">Thoughts</h2>
+          <h2 className="text-2xl font-semibold text-white">🤔 always thinking</h2>
           <div className="mt-6 space-y-4">
             {thoughts.map((thought) => (
               <article
