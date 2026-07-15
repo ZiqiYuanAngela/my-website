@@ -4,6 +4,11 @@ const projects = [
     description: "A full stack application that allows users to upload their API documentation and interact with it using a chat interface. The application utilizes FastAPI, OpenAI, and Next.js to provide a seamless experience for users.",
     github: "https://github.com/ZiqiYuanAngela/api-doc-agent",
   },
+  {
+    name: "Incident Response Agent",
+    description: "Built a stateful AI incident-response workflow using FastAPI, LangGraph, structured LLM outputs, and deterministic operational tools.",
+    github: "https://github.com/ZiqiYuanAngela/incident-response-agent"
+  }
 ];
 
 const thoughts = [
