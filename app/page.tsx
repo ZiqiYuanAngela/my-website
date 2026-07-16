@@ -74,7 +74,7 @@ export default function Home() {
               LinkedIn
             </a>
             <a
-              href="https://github.com/repos?q=owner%3A%40me"
+              href="https://github.com/ZiqiYuanAngela"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-2 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800"
