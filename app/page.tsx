@@ -8,6 +8,11 @@ const projects = [
     name: "Incident Response Agent",
     description: "Built a stateful AI incident-response workflow using FastAPI, LangGraph, structured LLM outputs, and deterministic operational tools.",
     github: "https://github.com/ZiqiYuanAngela/incident-response-agent"
+  },
+  {
+    name: "AI Job Processing Platform",
+    description: "A durable execution platform for long-running AI workflows with checkpointing, retries, cancellation, idempotency, cost tracking, and crash recovery using FastAPI, PostgreSQL, Redis, Celery, React, and OpenAI",
+    github: "https://github.com/ZiqiYuanAngela/ai-job-processing-platform"
   }
 ];
 
