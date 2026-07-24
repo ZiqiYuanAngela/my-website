@@ -85,6 +85,18 @@ export default function Home() {
               </svg>
               GitHub
             </a>
+            <a
+              href="https://drive.google.com/file/d/1euR1r95gjG2tYYJK5mQpv2DZBtbsPwj1/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-2 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800"
+              aria-label="View resume"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
+                <path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H14a1 1 0 0 1-1-1V3.5ZM8 13h8v1.5H8V13Zm0 3.5h8V18H8v-1.5ZM8 9.5h4V11H8V9.5Z" />
+              </svg>
+              Resume/CV
+            </a>
             <EmailButton />
           </div>
         </section>
